@@ -1,0 +1,41 @@
+/*MenuBar*/
+.MenuBar {
+background-color: black;
+overflow: auto;
+white-space: nowrap;
+text-align: center;
+position: fixed;
+width: 100%;
+top: 0;
+border: 0px;
+}
+
+/*MenuBar Text*/
+.MenuBar a {
+margin: auto;
+display: inline-block;
+color: white;
+padding: 14px 10px;
+text-decoration: none;
+font-size: 25px;
+font-family: "Times New Roman", serif;
+border: 0px;
+}
+
+/*Hover MenuBar Text*/
+.MenuBar a:hover {
+background-color: #ddd;
+color: black;
+}
+
+#body-home { 
+background-image:url(Img1.png);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.btt {
+    
+}
